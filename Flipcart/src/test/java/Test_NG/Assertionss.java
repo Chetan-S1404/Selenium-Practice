@@ -3,7 +3,7 @@ package Test_NG;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -19,7 +19,7 @@ public class Assertionss {
 		Thread.sleep(2000);
 		String act = driver.getTitle();
 		System.out.println(act);
-		String ver = "Log in to Facebook";
+	//	String ver = "Log in to Facebook";
 	//	Assert.assertEquals(act, ver, "test is passed");
 		//Assert.assertEquals(act, ver);
 		//System.out.println("test is passed");
